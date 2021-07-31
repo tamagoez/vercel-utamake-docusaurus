@@ -6,7 +6,7 @@ module.exports = {
   wiki: [
     {
       type: "doc",
-      id: "home",
+      items: ["wiki/home"],
     },
     {
       type: "category",
