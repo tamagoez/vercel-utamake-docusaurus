@@ -13,7 +13,7 @@ const features = [
     description: (
       <>
         Docusaurusは、美しさと操作性を重視して作られたサイトです。
-    　　安心安全のFaceBook社製です。
+    　<br>安心安全のFaceBook社製です。
       </>
     ),
   },
