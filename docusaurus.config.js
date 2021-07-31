@@ -1,7 +1,7 @@
 module.exports = {
   title: 'UtamakeNext',
   tagline: '次を生きるうたまけ',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://vercel-utamake-docusaurus.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'utamake', // Usually your GitHub org/user name.
@@ -10,12 +10,13 @@ module.exports = {
     navbar: {
       title: 'UtamakeNext',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'UtamakeNext',
         src: 'img/logo.png',
       },
       links: [
         {
           to: 'wiki/home',
+          activeBasePath: 'wiki',
           label: 'Wiki',
           position: 'left',
         },
