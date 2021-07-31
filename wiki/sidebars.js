@@ -1,5 +1,9 @@
 module.exports = {
-  mySidebar: {
-    'home',
-  },
+  mySidebar: [
+    {
+      type: 'doc',
+      id: 'home', // document id
+      label: 'Home', // sidebar label
+    },
+  ],
 };
