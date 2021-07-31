@@ -1,9 +1,9 @@
 module.exports = {
   mySidebar: [
     {
-      type: 'doc',
-      id: 'home', // document id
-      label: 'Home', // sidebar label
+      type: 'category',
+      label: 'Important',
+      items: ['important/wiki-rules'],
     },
   ],
 };
