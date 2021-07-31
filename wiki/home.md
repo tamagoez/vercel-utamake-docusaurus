@@ -1,0 +1,4 @@
+---
+id: home
+title: Home
+---
