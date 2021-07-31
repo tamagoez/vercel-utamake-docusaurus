@@ -94,16 +94,10 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./docs/sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/',
-        },
-        wiki: {
-          sidebarPath: require.resolve('./wiki/sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/wiki/',
         },
         blog: {
           showReadingTime: true,
