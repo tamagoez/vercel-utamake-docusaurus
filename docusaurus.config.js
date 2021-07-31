@@ -1,28 +1,29 @@
 module.exports = {
   title: 'UtamakeNext',
-  tagline: '次をいきるうたまけ',
+  tagline: '次を生きるうたまけ',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'utamake', // Usually your GitHub org/user name.
+  projectName: 'vercel-utamake-docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'UtamakeNext',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'wiki/home',
+          activeBasePath: 'wiki',
+          label: 'Wiki',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'news', label: 'News', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -75,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Utamake, Built with Docusaurus.`,
     },
   },
   presets: [
