@@ -1,7 +1,7 @@
 module.exports = {
   mySidebar: [
     {
-      type: 'docs',
+      type: 'doc',
       items: ['home'],
     },
     {
