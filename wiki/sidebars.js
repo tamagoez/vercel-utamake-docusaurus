@@ -2,7 +2,8 @@ module.exports = {
   mySidebar: [
     {
       type: 'doc',
-      items: ['home'],
+      id: 'home',
+      label: 'Home',
     },
     {
       type: 'category',
