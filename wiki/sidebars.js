@@ -1,6 +1,5 @@
 module.exports = {
-    main: {
-      type: "doc",
-      id: "home",
-    },
+  someSidebar: {
+    Docusaurus: ['home'],
+  },
 };
