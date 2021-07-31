@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurusは、美しさと操作性を重視して作られたサイトです。 安心安全のFaceBook社製です。
+        Docusaurusは、美しさと操作性を重視して作られたサイトです。 安心安全のFaceBook社製。
       </>
     ),
   },
@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurusは記事に簡単にアクセスするのを手伝います。 UtamakeNextは、コンパクトなメニューバーですぐにフォーカス。
+        Docusaurusは記事に簡単にアクセスするのを手伝います。 コンパクトなメニューバーですぐにフォーカス。
       </>
     ),
   },
