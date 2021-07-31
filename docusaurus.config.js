@@ -23,13 +23,13 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'news', label: 'News', position: 'left'},
         {
-          href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
-          label: 'GitHub',
+          href: 'https://utamake.minecraftr.us',
+          label: 'UtamakePages',
           position: 'right',
         },
         {
-          href: 'https://utamake.minecraftr.us',
-          label: 'UtamakePages',
+          href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
+          label: 'GitHub',
           position: 'right',
         },
       ],
