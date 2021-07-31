@@ -16,7 +16,6 @@ module.exports = {
       links: [
         {
           to: 'wiki/home',
-          activeBasePath: 'wiki',
           label: 'Wiki',
           position: 'left',
         },
