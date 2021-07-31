@@ -26,7 +26,7 @@ const features = [
     ),
   },
   {
-    title: <>VercelとReace</>,
+    title: <>VercelとReact</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
