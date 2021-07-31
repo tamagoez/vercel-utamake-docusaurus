@@ -70,6 +70,10 @@ module.exports = {
               to: 'blog',
             },
             {
+              label: 'UtamakePages',
+              href: 'https://utamake.minecraftr.us/',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/tabascoes/vercel-utamake-docusaurus',
             },
