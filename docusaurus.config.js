@@ -98,6 +98,12 @@ module.exports = {
           editUrl:
             'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/',
         },
+        wiki: {
+          sidebarPath: require.resolve('./wiki/sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/wiki/',
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
