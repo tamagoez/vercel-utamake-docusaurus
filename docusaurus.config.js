@@ -125,4 +125,5 @@ module.exports = {
         showLastUpdateTime: true,
       },
     ],
+  ],
 };
