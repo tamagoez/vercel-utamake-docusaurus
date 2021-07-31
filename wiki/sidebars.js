@@ -1,5 +1,6 @@
 module.exports = {
   mySidebar: [
+    'home',
     {
       type: 'category',
       label: 'Important',
