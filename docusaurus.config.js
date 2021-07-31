@@ -15,8 +15,8 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/wiki/home',
-          activeBasePath: 'docs',
+          to: 'wiki/home',
+          activeBasePath: 'wiki',
           label: 'Wiki',
           position: 'left',
         },
@@ -121,6 +121,16 @@ module.exports = {
         editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/master/website/${versionDocsDirPath}/${docPath}",
         editCurrentVersion: true,
         sidebarPath: require.resolve('./wiki/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+      {
+        id: 'news',
+        path: 'news',
+        routeBasePath: 'news',
+        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/master/website/${versionDocsDirPath}/${docPath}",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./news/sidebars.js'),
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
