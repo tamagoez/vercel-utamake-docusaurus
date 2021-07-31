@@ -27,6 +27,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://utamake.minecraftr.us',
+          label: 'UtamakePages',
+          position: 'right',
+        },
       ],
     },
     footer: {
