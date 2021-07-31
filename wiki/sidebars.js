@@ -1,6 +1,13 @@
 module.exports = {
-  mySidebar: {
-    'Home': ['home'],
-    Important: [],
-  },
+  mySidebar: [
+    {
+      type: 'docs',
+      items: ['home'],
+    },
+    {
+      type: 'category',
+      label: 'Important',
+      items: [],
+    },
+  ],
 };
