@@ -111,4 +111,18 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'wiki',
+        path: 'wiki',
+        routeBasePath: 'wiki',
+        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/master/website/${versionDocsDirPath}/${docPath}",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./wiki/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
 };
