@@ -21,8 +21,8 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'news', label: 'News', position: 'left'},
-        {to: 'future', label: 'Future', position: 'left'},
+        {to: 'docs/news/home', label: 'News', position: 'left'},
+        {to: 'docs/futures/home', label: 'Futures', position: 'left'},
         {
           href: 'https://utamake.minecraftr.us',
           label: 'UtamakePages',
