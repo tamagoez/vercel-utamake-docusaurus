@@ -1,6 +1,7 @@
 module.exports = {
   mySidebar: [
     'home',
+    'how-to-mine-windmill-1-17',
     {
       type: 'category',
       label: 'Important',
