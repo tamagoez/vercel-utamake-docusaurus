@@ -13,7 +13,7 @@ module.exports = {
         alt: 'UtamakeNext',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           to: 'wiki/home',
           activeBasePath: 'wiki',
