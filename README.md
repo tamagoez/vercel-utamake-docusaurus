@@ -1,4 +1,4 @@
-https://stackedit.io/app#providerId=githubWorkspace&owner=tabascoes&repo=vercel-utamake-docusaurus&branch=main
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/aKgDU9s0HC">https://t.co/aKgDU9s0HC</a><br>プラグイン自体を複数書くといけるっぽい？</p>&mdash; sasigume (@sasigume) <a href="https://twitter.com/sasigume/status/1421766427120267264?ref_src=twsrc%5Etfw">August 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Docusaurus Example
 
