@@ -2,7 +2,9 @@
 #### Author: [たまご](/wiki/author/tamagoes)  
 #### 最終更新: 2021/07/09 23:00
 
-**ℹ︎このページは編集ノートからミラーされています。**  
+::: memo
+このページは編集ノートからミラーされています。
+:::
 このUtamakePagesは、
  - GitHub([たまご](/wiki/author/tamagoes))
  - 編集ノート([うたこ](/wiki/author/utako),[たむけ](/wiki/author/tamuke))
@@ -26,3 +28,6 @@ UtamakePagesは、主に
 順番は、うたこ→たむけ→たまご です。
 
 よろしくお願いします。
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAyMjk0MjY4XX0=
+-->
