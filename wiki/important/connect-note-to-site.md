@@ -2,9 +2,10 @@
 #### Author: [たまご](/wiki/author/tamagoes)  
 #### 最終更新: 2021/07/09 23:00
 
-:::memo
+:::note
 このページは編集ノートからミラーされています。
 :::
+
 このUtamakePagesは、
  - GitHub([たまご](/wiki/author/tamagoes))
  - 編集ノート([うたこ](/wiki/author/utako),[たむけ](/wiki/author/tamuke))
