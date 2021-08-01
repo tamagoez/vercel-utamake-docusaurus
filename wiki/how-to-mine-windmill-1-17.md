@@ -23,7 +23,7 @@ title: 風車型ブランチマイニングのすゝめ(1.17)
  - 複雑
 
 近場でホリホリしたい場合に適している。  
-遠くへ行きたい場合は、[梯子型ブランチマイニングのすゝめ](/wiki/how-to-mine-ladder)を参考にしてほしい。
+遠くへ行きたい場合は、[梯子型ブランチマイニングのすゝめ](/wiki/how-to-mine-ladder-1-17)を参考にしてほしい。
 
 ## 準備
 ### 必需品
@@ -66,5 +66,5 @@ title: 風車型ブランチマイニングのすゝめ(1.17)
  - [Fandom Minecraft Wiki](https://minecraft.fandom.com)
  - [Hikakin](https://youtube.com/watch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTc4MDIyOF19
+eyJoaXN0b3J5IjpbMTI5NzYzODA5MV19
 -->
