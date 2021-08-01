@@ -152,8 +152,7 @@ module.exports = {
       },
     ],
   ],
-  [
-    '@docusaurus/plugin-google-analytics',
+  '@docusaurus/plugin-google-analytics',
     {
       themeConfig: {
         googleAnalytics: {
@@ -163,5 +162,4 @@ module.exports = {
         },
       },
     },
-  ],
 };
