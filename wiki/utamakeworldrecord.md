@@ -27,8 +27,8 @@ UtamakeWorldRecord(UWR)は、うたまけワールド内の記録を総称した
 | ネザライト剣 | たまご |
 | ネザライト斧 | NODATA |
 | ネザライトシャベル | NODATA |
-| ネザライトクワ | たまご
+| ネザライトクワ | たまご |
 | エンチャントテーブル | たまご |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkxOTM2MjVdfQ==
+eyJoaXN0b3J5IjpbLTc1NDI1OTczXX0=
 -->
