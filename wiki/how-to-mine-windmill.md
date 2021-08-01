@@ -1,6 +1,10 @@
 # 風車型ブランチマイニングのすゝめ
 
-! このページは、データの参照元が書かれていない項目があります !
+:::warning
+
+このページはバージョン1.18以前の記事です。
+
+:::
 
 風車型ブランチマイニングは、YouTuberなどが使用している、有名なブランチマイニング方法である。  
 このページでは、風車型ブランチマイニングの進め方について説明していこうと思う。
@@ -58,3 +62,6 @@
  - たまご([TamaTamaGoGo](https://github.com/tamatamagogo))
  - [Fandom Minecraft Wiki](https://minecraft.fandom.com)
  - [Hikakin](https://youtube.com/watch)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyMTY4MDcxNTJdfQ==
+-->
