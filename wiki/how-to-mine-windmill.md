@@ -1,4 +1,7 @@
-# 風車型ブランチマイニングのすゝめ
+---
+id: home
+title: 風車型ブランチマイニング
+---
 
 :::warning
 
@@ -31,7 +34,7 @@
  - 剣 1個  
 たくさんの、石や鉱石が集まるのでできる限り他の持ち物を**持たない**方が良い。
 
-**Y軸=11**まで、掘ってから開始するのが[一番効率(**ダイアモンド**)が良いとされる](https://static.wikia.nocookie.net/minecraft_ja_gamepedia/images/c/ca/PercentOfOreByHeight.png/revision/latest?cb=20200220154930)。  
+**Y軸=11**まで、掘ってから開始するのが[一番効率(**ダイアモンド**)が良いとされる](https://static.wikia.nocookie.net/minecraft_ja_gamepedia/images/c/ca/PercentOfOreByHeight.png/revision/latest)。  
 **ラピスラズリ**は、**Y軸=13**である。
 
 決めたY軸まで掘ったら、まずは**16×16**の拠点を作る。  
@@ -63,5 +66,5 @@
  - [Fandom Minecraft Wiki](https://minecraft.fandom.com)
  - [Hikakin](https://youtube.com/watch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY4MDcxNTJdfQ==
+eyJoaXN0b3J5IjpbNDgwNzQxNjcxXX0=
 -->
