@@ -1,5 +1,7 @@
 https://twitter.com/sasigume/status/1421766427120267264?s=20  
-https://github.com/facebook/docusaurus/issues/3299
+https://github.com/facebook/docusaurus/issues/3299  
+https://discord.com/channels/398180168688074762/867060369087922187/871383296054013952  
+https://discord.com/channels/398180168688074762/867060369087922187/871386013510037514
 
 # Docusaurus Example
 
