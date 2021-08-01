@@ -134,6 +134,16 @@ module.exports = {
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
+      {
+        id: 'futures',
+        path: 'futures',
+        routeBasePath: 'news',
+        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/futures",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./futures/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
     ],
   ],
 };
