@@ -1,4 +1,7 @@
-# アイテム名前案
+---
+id: item-name
+title: アイテム名前案
+---
 
 ## [たまご](/wiki/author/tamagoes)
 | アイテム     | 名前| 
@@ -20,3 +23,6 @@
 | スコップ | [スコプンプン](https://dm-wiki.net/%E3%80%8A%E3%82%B9%E3%82%B3%E3%83%97%E3%83%B3%E3%83%97%E3%83%B3%E3%80%8B) |
 
 ## [たまけ](/wiki/author/tamuke)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MzkwNDYzOThdfQ==
+-->
