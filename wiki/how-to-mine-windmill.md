@@ -1,6 +1,6 @@
 ---
-id: home
-title: 風車型ブランチマイニング
+id: how-to-mind-windmill
+title: 風車型ブランチマイニングのすゝめ
 ---
 
 :::warning
@@ -66,5 +66,5 @@ title: 風車型ブランチマイニング
  - [Fandom Minecraft Wiki](https://minecraft.fandom.com)
  - [Hikakin](https://youtube.com/watch)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNzQxNjcxXX0=
+eyJoaXN0b3J5IjpbMTY1NzIwOTldfQ==
 -->
