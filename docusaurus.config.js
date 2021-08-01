@@ -125,5 +125,31 @@ module.exports = {
         showLastUpdateTime: true,
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'news',
+        path: 'news',
+        routeBasePath: 'news',
+        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/news",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./news/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'futures',
+        path: 'futures',
+        routeBasePath: 'futures',
+        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/futures",
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./futures/sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      },
+    ],
   ],
 };
