@@ -115,12 +115,12 @@ module.exports = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'news',
-        path: 'news',
-        routeBasePath: 'news',
-        editUrl: "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/news",
+        id: ['news', 'wiki', 'futures'],
+        path: ['news', 'wiki', 'futures'],
+        routeBasePath: ['news', 'wiki', 'futures'],
+        editUrl: ["https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/news", "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/wiki", "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/futures"],
         editCurrentVersion: true,
-        sidebarPath: require.resolve('./news/sidebars.js'),
+        sidebarPath: ['require.resolve('./news/sidebars.js')', 'require.resolve('./wiki/sidebars.js')', 'require.resolve('./futures/sidebars.js')'],
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
