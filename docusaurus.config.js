@@ -124,6 +124,7 @@ module.exports = {
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
+      '@docusaurus/plugin-content-docs',
       {
         id: 'news',
         path: 'news',
@@ -134,6 +135,7 @@ module.exports = {
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
+      '@docusaurus/plugin-content-docs',
       {
         id: 'futures',
         path: 'futures',
