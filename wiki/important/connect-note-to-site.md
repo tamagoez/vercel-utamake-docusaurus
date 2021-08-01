@@ -2,7 +2,7 @@
 #### Author: [たまご](/wiki/author/tamagoes)  
 #### 最終更新: 2021/07/09 23:00
 
-::: memo
+:::memo
 このページは編集ノートからミラーされています。
 :::
 このUtamakePagesは、
