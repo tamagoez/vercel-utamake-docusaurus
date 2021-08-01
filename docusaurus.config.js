@@ -114,7 +114,8 @@ module.exports = {
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
-      [  {
+      docs: [  
+        {
           id: 'wiki',
           path: 'wiki',
           routeBasePath: 'wiki',
