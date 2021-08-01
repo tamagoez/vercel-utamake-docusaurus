@@ -6,6 +6,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'utamake', // Usually your GitHub org/user name.
   projectName: 'vercel-utamake-docusaurus', // Usually your repo name.
+  onBrokenLinks: 'warn',
   themeConfig: {
     navbar: {
       title: 'UtamakeNext',
