@@ -1,5 +1,5 @@
 ---
-id: how-to-mind-windmill-1-17
+id: how-to-min-windmill-1-17
 title: 風車型ブランチマイニングのすゝめ(1.17)
 ---
 
