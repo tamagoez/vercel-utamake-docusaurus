@@ -120,7 +120,7 @@ module.exports = {
         routeBasePath: ['news', 'wiki', 'futures'],
         editUrl: ["https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/news", "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/wiki", "https://github.com/tabascoes/vercel-utamake-docusaurus/edit/main/futures"],
         editCurrentVersion: true,
-        sidebarPath: ['require.resolve('./news/sidebars.js')', 'require.resolve('./wiki/sidebars.js')', 'require.resolve('./futures/sidebars.js')'],
+        sidebarPath: [require.resolve('./news/sidebars.js'), require.resolve('./wiki/sidebars.js'), require.resolve('./futures/sidebars.js')],
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
