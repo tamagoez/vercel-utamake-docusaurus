@@ -7,7 +7,13 @@ module.exports = {
   organizationName: 'utamake', // Usually your GitHub org/user name.
   projectName: 'vercel-utamake-docusaurus', // Usually your repo name.
   onBrokenLinks: 'warn',
+  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-141789564-1',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+      },
     navbar: {
       title: 'UtamakeNext',
       logo: {
