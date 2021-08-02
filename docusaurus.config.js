@@ -161,6 +161,7 @@ module.exports = {
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
+        },
       },
     ],
   ],
