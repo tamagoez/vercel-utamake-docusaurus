@@ -1,3 +1,9 @@
+---
+id: utamakeworldrecord
+title: UtamakeWorldRecord
+sidebar_position: 3
+---
+
 # UtamakeWorldRecord
 UtamakeWorldRecord(UWR)は、うたまけワールド内の記録を総称した単語です。
 
