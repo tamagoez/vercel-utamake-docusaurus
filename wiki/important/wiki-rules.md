@@ -6,7 +6,7 @@ title: Wikiのルール
 #### Author: [たまご](/wiki/author/tamagoes)  
 #### 最終更新: 2021/07/09 22:52
 
-::: memo
+:::note
 このページは編集ノートからミラーされています。
 :::
 
