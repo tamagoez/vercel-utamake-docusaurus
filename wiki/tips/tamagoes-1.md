@@ -1,5 +1,5 @@
 # #1 TIPS
-<h5>Author: [たまご](/wiki/author/tamagoes)</h5>
+Author: [たまご](/wiki/author/tamagoes)
 <h5>最終変更:2021/07/08 13:48</h5>
 
  - 雨の時、つりは**20%** SPEEDUP
@@ -13,5 +13,5 @@
  - クモトラップのフェンスゲートは、多すぎて詰まることがある
  - **ハーフブロック**+**ボート**の移動手段が最速!!
 
-<h5>Author: [うたこ](/wiki/author/utako)</h5>
+Author: [うたこ](/wiki/author/utako)
  - 畑に生えているものは、**ハチについた花粉**で育つ
