@@ -3,6 +3,7 @@ module.exports = {
   tagline: '次を生きるうたまけ',
   url: 'https://vercel-utamake-docusaurus.vercel.app/',
   baseUrl: '/',
+  baseUrlIssueBanner: true, // Defaults to `true`
   favicon: 'img/favicon.ico',
   organizationName: 'utamake', // Usually your GitHub org/user name.
   projectName: 'vercel-utamake-docusaurus', // Usually your repo name.
