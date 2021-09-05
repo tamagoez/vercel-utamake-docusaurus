@@ -1,4 +1,9 @@
-# 有機ELモデルと従来モデルのSwitchを比較してみた!
+---
+id: about-new-switch
+title: 有機ELモデルと従来モデルのSwitchを比較してみた!
+sidebar_position: 1
+---
+
 <h5>Author: [たまご](/wiki/author/tamagoes)</h5>
 <h5>現在更新中
 最終変更:2021/07/30 18:15</h5>
