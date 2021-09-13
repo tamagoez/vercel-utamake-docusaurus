@@ -8,7 +8,9 @@ sidebar_position: 1
 <h5>現在更新中
 最終変更:2021/07/30 18:15</h5>
 
+:::tip
 おおまかな比較は[公式サイト](https://www.nintendo.co.jp/hardware/switch/compare/index.html)でも見ることができます。
+:::
 
 ## ディスプレイ
 従来モデルのSwitchは、**液晶ディスプレイ**を採用している。  
