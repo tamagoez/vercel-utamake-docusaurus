@@ -4,6 +4,9 @@ title: なぜSlimeFinderを使用してはいけないのか(論文)
 sidebar_position: 1
 ---
 
+:important
+ChunkBaseによる[Slime Finder](https://www.chunkbase.com/apps/slime-finder)を、以下**SlimeFinder**と称しています。
+:::
 どうもどうも、たまごです。  
 そもそも概要の前に対立についての説明をしようと思います。
 
@@ -24,3 +27,9 @@ SlimeFinderというのは、**外部ツール**であり、正規方法では�
 | うたこ | 否定派 |
 | たむけ | 肯定派 |
 
+見たところ、否定派が多いようですが、2人がなぜSlimeFinderを使用しないほうがいいと考えるか説明します。
+
+## 説明
+### そもそも外部ツール
+勘違いをしている~~たむけさんとかいう~~人がいるそうなので言いますが、SlimeFinderとはMojangとは全くの無関係である**外部ツール**です。  
+検索に引っ掛けた結果、SlimeFinderは外部ツールであるという記事も見かけられました。
