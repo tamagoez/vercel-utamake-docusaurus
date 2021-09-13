@@ -1,7 +1,6 @@
 ---
 id: how_much_tamagoes_lost
 title: たまごが失ったお金調べ
-sidebar_position: 1
 ---
 
 # たまごが失ったお金調べ
