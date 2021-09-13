@@ -4,7 +4,7 @@ title: なぜSlimeFinderを使用してはいけないのか(論文)
 sidebar_position: 1
 ---
 
-:important
+:::important
 ChunkBaseによる[Slime Finder](https://www.chunkbase.com/apps/slime-finder)を、以下**SlimeFinder**と称しています。
 :::
 どうもどうも、たまごです。  
