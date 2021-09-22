@@ -15,6 +15,7 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 ## 引用させていただく記事
  - *1 [@reireiasという方の記事 (裸のラズパイにKubernetesの環境を構築する方法)](https://qiita.com/reireias/items/0d87de18f43f27a8ed9b)
  - *2 [Jeef Geerling という方の記事 (サーバーの導入方法)](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-4-minecraft-pi-hole-grafana-and-more)
+ - *3 [とある方の記事](https://gist.github.com/gabrielsson/2d110bb3f43b46597831f4a0e4065265)
 
 ## 最初の工程
 ### 購入
