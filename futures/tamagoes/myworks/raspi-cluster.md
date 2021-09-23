@@ -42,7 +42,7 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 [OS](https://e-words.jp/w/OS.html)という、基盤の次に**大切なﾔﾂがない**のです!  
 ところで、ラズパイの標準ディスクは、MicroSD Cardとなっています。  
 ですが、実際僕が使用した時にもよく起きましたが、[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)という**SDカードの耐久性の弱さ**のために、**OSの中核部分**であるカーネル（kernel）の**実行に致命的な支障が発生**し、エラーが吐き出されてしまうことがしばしばあり、最悪の場合起動すら許可してくれません。    
-[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)は、Windowsでいう**ブルースクリーン**らしです。  
+[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)は、Windowsでいう**ブルースクリーン**らしいです。  
 なので、後に少々面倒なことをしなくてはいけません。
 
 ### MicroSDにインストール
@@ -125,6 +125,9 @@ sudo su
 
 # ディスクの消耗を抑えるためにSWAPシステムを停止します
 systemctl disable dphys-swapfile.service
+
+# Dockerの為の設定をします
+echo cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1 >> /boot/cmdline.txt
 
 # piユーザーはデフォルトで設定されているユーザーのため脆弱です
 # 新しいユーザーを設定しましょう
