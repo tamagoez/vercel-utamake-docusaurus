@@ -132,7 +132,7 @@ echo cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1 >> /boot/cmdline.
 # piユーザーはデフォルトで設定されているユーザーのため脆弱です
 # 新しいユーザーを設定しましょう
 adduser clusterpc
-usermod -aG sudo,root,tty,audio,video,gpio clusterpc
+usermod -aG adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio clusterpc
 
 # piユーザーを消しちゃいます!
 userdel pi
@@ -145,7 +145,28 @@ apt full-upgrade -y
 reboot
 ```
 
-再起動したら、シャットダウンしましょう。
+再起動したら、パッケージをインストールしてシャットダウンしましょう。
 ```
+# またrootになりましょう
+sudo su
+
+# KubenetesをインストールするためにDocker環境を入れます
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker clusterpc
+
+# ついにKubernetesをインストールします！
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+sudo update-alternatives --set arptables /usr/sbin/arptables-legacy
+sudo update-alternatives --set ebtables /usr/sbin/ebtables-legacy
+sudo apt update && sudo apt install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+cat <<EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+sudo apt update
+sudo apt install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+
 sudo shutdown now
 ```
