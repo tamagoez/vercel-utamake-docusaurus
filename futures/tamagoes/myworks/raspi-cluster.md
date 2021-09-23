@@ -123,24 +123,6 @@ ssh pi@(ラズパイのip)
 # rootユーザーになりましょう
 sudo su
 
-# ディスクの消耗を抑えるためにSWAPシステムを停止します
-systemctl disable dphys-swapfile.service
-
-# Dockerの為の設定をします
-echo cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1 >> /boot/cmdline.txt
-
-# piユーザーはデフォルトで設定されているユーザーのため脆弱です
-# 新しいユーザーを設定しましょう
-adduser clusterpc
-usermod -aG adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,spi,i2c,gpio clusterpc
-
-# piユーザーを消しちゃいます!
-userdel pi
-
-# 更新してあげましょう
-apt update -y
-apt full-upgrade -y
-
 # 再起動して更新を反映させましょう
 reboot
 ```
@@ -173,6 +155,7 @@ sudo shutdown now
 
 ### コマンドを実行していく！
 ここからはめんどくさい作業となっています。  
+
 sudo su
 # cluster01~cluster99 まで各設定させてあげてください
 $clusnum=cluster01
