@@ -39,9 +39,9 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 #### 概要
 せっかく買ったラズパイ、でも電源入れてみても立ち上がらない。  
 当たり前です。  
-[OS](https://e-words.jp/w/OS.html)という、基盤の次に大切なﾔﾂがないのです!  
+[OS](https://e-words.jp/w/OS.html)という、基盤の次に**大切なﾔﾂがない**のです!  
 ところで、ラズパイの標準ディスクは、MicroSD Cardとなっています。  
-ですが、実際僕が使用した時にもよく起きましたが、[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)というSDカードの耐久性の弱さのために、**OSの中核部分**であるカーネル（kernel）の**実行に致命的な支障が発生**し、エラーが吐き出されてしまうことがしばしばあり、最悪の場合起動すら許可してくれません。    
+ですが、実際僕が使用した時にもよく起きましたが、[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)という**SDカードの耐久性の弱さ**のために、**OSの中核部分**であるカーネル（kernel）の**実行に致命的な支障が発生**し、エラーが吐き出されてしまうことがしばしばあり、最悪の場合起動すら許可してくれません。    
 [`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)は、Windowsでいう**ブルースクリーン**らしです。  
 なので、後に少々面倒なことをしなくてはいけません。
 
@@ -65,5 +65,15 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 そしたら、`WRITE`しちゃってください!!!  
 あっという間にフォーマット完了!
 
-#### Flash!
-まだまだ[RaspberryPi Imager](https://www.raspberrypi.org/software/)の活躍は続きます!
+#### OSイメージのダウンロード
+まだまだ[RaspberryPi Imager](https://www.raspberrypi.org/software/)の活躍は続きます!  
+ですが、先に64bit用のイメージをダウンロードしましょう。  
+残念ながら[RaspberryPi Imager](https://www.raspberrypi.org/software/)では、64bitはリストされず、32bitだけとなっております。  
+なぜ、32bitだとダメなのって方は、フレッツ光さんの[こちらの記事](https://flets-w.com/chienetta/list/2021/02/cb_pc-equipment11.html)を見るとわかるかもしれません。  
+では早速ダウンロードしましょう!  
+まず、[このページにアクセスします](https://downloads.raspberrypi.org/raspios_lite_arm64/images/?C=M;O=D)。
+そうするとバージョン毎にリストされるので、最終更新(**Last Modified**)が一番新しいバージョンをクリックしましょう。  
+そうしたら、またリストが出てくるので、拡張子が`.zip`となっているリンクを押すとダウンロードされます。
+
+####
+またまたimagerを起動し、またまた`CHOOSE OS`をクリックします。  
