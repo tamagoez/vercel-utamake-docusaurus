@@ -108,3 +108,41 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 ｿｼﾀﾗやっと、`WRITE`です!  
 この間が一番の休み場!  
 コーヒーでも飲んじゃってください!(こぼしてPCを破損させないように!)
+
+### ラズパイの設定
+まずは、ラズパイを起動させてあげましょう。  
+```
+ssh pi@(ラズパイのip)
+```
+を、遠隔操作するPCで実行します。  
+
+では早速設定していきましょう。  
+<b>#</b>はコメントです。
+
+```
+# rootユーザーになりましょう
+sudo su
+
+# ディスクの消耗を抑えるためにSWAPシステムを停止します
+systemctl disable dphys-swapfile.service
+
+# piユーザーはデフォルトで設定されているユーザーのため脆弱です
+# 新しいユーザーを設定しましょう
+adduser clusterpc
+usermod -aG sudo,root,tty,audio,video,gpio clusterpc
+
+# piユーザーを消しちゃいます!
+userdel pi
+
+# 更新してあげましょう
+apt update -y
+apt full-upgrade -y
+
+# 再起動して更新を反映させましょう
+reboot
+```
+
+再起動したら、シャットダウンしましょう。
+```
+sudo shutdown now
+```
