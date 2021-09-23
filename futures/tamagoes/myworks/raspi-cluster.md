@@ -170,3 +170,10 @@ sudo apt-mark hold kubelet kubeadm kubectl
 
 sudo shutdown now
 ```
+
+### コマンドを実行していく！
+ここからはめんどくさい作業となっています。  
+sudo su
+# cluster01~cluster99 まで各設定させてあげてください
+$clusnum=cluster01
+usermod -l $clusnum masterpi -d /home/$clusnum -m
