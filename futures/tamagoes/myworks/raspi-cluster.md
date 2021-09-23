@@ -41,7 +41,8 @@ title: ラズパイをクラスター化させてマインクラフトサーバ�
 当たり前です。  
 [OS](https://e-words.jp/w/OS.html)という、基盤の次に大切なﾔﾂがないのです!  
 ところで、ラズパイの標準ディスクは、MicroSD Cardとなっています。  
-ですが、実際僕が使用した時にもよく起きましたが、`Kernel panic`というSDカードの耐久性の弱さのためのエラーが吐き出されてしまうことがしばしばあり、最悪の場合起動すら許可してくれません。  
+ですが、実際僕が使用した時にもよく起きましたが、[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)というSDカードの耐久性の弱さのために、**OSの中核部分**であるカーネル（kernel）の**実行に致命的な支障が発生**し、エラーが吐き出されてしまうことがしばしばあり、最悪の場合起動すら許可してくれません。    
+[`Kernel panic`](https://www.otsuka-shokai.co.jp/words/kernelpanic.html)は、Windowsでいう**ブルースクリーン**らしです。  
 なので、後に少々面倒なことをしなくてはいけません。
 
 ### MicroSDにインストール
